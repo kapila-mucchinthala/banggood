@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="home.css">
+
+    <title>Banggood</title>
+</head>
+
+<body>
+
+        <div class="header">
+            <div class="header1">
+                <div class="logo"><a href="home.html"><img src="https://www.linkpicture.com/q/a_18.png" type="image" /></a></div>
+                <img src="" />
+                <div class="shipping">
+                    <p class="header_text_change2">Ship to<br><span class="header_text_change1">India</span>
+                    </p>
+                    <div class="header_triangle"></div>
+                </div>
+                <div class="input_header">
+                    <div>
+                        <input type="text" placeholder="Enter Product" class="input_header_1" />
+                    </div>
+                    <div class="input_header_2">
+                        <div class="input_header_2_1">cordless air duster</div>
+                        <div class="input_header_2_1">air duster</div>
+                        <div class="input_header_2_1">wltoys 144001</div>
+                        <div class="input_header_2_1">lock pick tools</div>
+                        <div class="input_header_2_1">dragon hotend</div>
+                        <div class="input_header_2_1">gamakay k61</div>
+                    </div>
+                </div>
+                <div class="header_flag">
+                    <img src="https://www.linkpicture.com/q/b_18.png" type="image" class="header_flag_image" />
+                    <div class="header_triangle" id="header_triangle2"></div>
+                </div>
+                <div class="header_signin">
+                    <img src="https://www.linkpicture.com/q/c_20.png" type="image" class="header_signin_logo" />
+                    <p class="header_text_change2">Hello<br><span class="header_text_change1">Sign in</span>
+                    </p>
+        
+                    <!-- <div class="header_signin_block">
+                            <div>Sign in</div>
+                            <div>Join us</div>
+                            <p>My Account</p>
+                            <p>My Orders</p>
+                            <p>My Whishlist</p>
+                            <p>My Coupons</p>
+                            <p>Refer & Get US$10</p>
+                        </div> -->
+        
+        
+                </div>
+                <div class="header_cart">
+                    <img src="https://www.linkpicture.com/q/i_6.png" class="header_cart_logo" />
+                </div>
+            </div>
+            <div class="header2">
+                <div class="header2_menu">
+                    <div class="header2_menu_symbol">
+                        <div class="header2_menu_symbol_line"></div>
+                        <div class="header2_menu_symbol_line"></div>
+                        <div class="header2_menu_symbol_line"></div>
+                    </div>
+                    <div>CATEGORIES</div>
+                            
+                </div>
+                <div class="header2_2">FLASH DEALS</div>
+                <div class="header2_2">NEW ARRIVALS</div>
+                <div class="header2_2">TOP SELLERS</div>
+            </div>
+        </div>
+
+
+
+
+    <div class="filter">
+        <div id="top">
+            <h1>Refine By</h1>
+            <button id="up" onclick="contract()">
+                <img src="https://www.linkpicture.com/q/up-arrow_1.png" type="image" />
+            </button>
+            <button id="down" onclick="expand()">
+                <img src="https://www.linkpicture.com/q/down-arrow_2.png" type="image" />
+            </button>
+        </div>
+
+        <div class="all">
+            <div class="caty-1">
+                <button id="sub1" onclick="addition1()">-</button>
+                <button id="add1" onclick="subtract1()">+</button>
+
+                <h2>Price</h2>
+
+                <div class="check-1">
+                    <input type="checkbox" onclick="checkboxNone()" />
+                    <label for="">Below Rs.500 </label><br />
+
+                    <input type="checkbox" id="myCheck" onclick="checkbox()" />
+                    <label for="">Rs.500-1000 </label><br />
+
+                    <input type="checkbox" id="myCheck2" onclick="checkbox2()" />
+                    <label for="">Rs.1001-1500 </label><br />
+
+                    <input type="checkbox" id="myCheck3" onchange="checkbox3()" />
+                    <label for="">Rs.1501-2000 </label><br />
+                </div>
+            </div>
+
+            <div class="caty-2">
+                <button id="sub2" onclick="addition2()">-</button>
+                <button id="add2" onclick="subtract2()">+</button>
+
+                <h2>Brand</h2>
+
+                <div class="check-2">
+                    <input type="checkbox" id="brandCheck10" onclick="brand10()" />
+                    <label for="">VONDA</label><br />
+
+                    <input type="checkbox" onclick="brand2()" />
+                    <label for="">AKS</label><br />
+
+                    <input type="checkbox" id="brandCheck1" onclick="brand1()" />
+                    <label for="">ANOUK</label><br />
+
+                    <input type="checkbox" />
+                    <label for="">BIBA</label><br />
+
+                    <input type="checkbox" />
+                    <label for="">LIBAS</label><br />
+
+                    <input type="checkbox" id="brandCheck3" onclick="brand3()" />
+                    <label for="">GRACILLA</label><br />
+                </div>
+            </div>
+
+            <div class="caty-3">
+                <button id="sub2">-</button>
+                <button id="add2">+</button>
+                <h2>Discount</h2>
+            </div>
+
+            <div class="caty-4">
+                <button id="sub2">-</button>
+                <button id="add2">+</button>
+                <h2>Colors</h2>
+            </div>
+
+            <div class="caty-5">
+                <button id="sub2">-</button>
+                <button id="add2">+</button>
+                <h2>Occasion</h2>
+            </div>
+
+            <div class="caty-5">
+                <button id="sub2">-</button>
+                <button id="add2">+</button>
+                <h2>Size</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="products">
+        <div class="heading">
+            <div class="head">
+                <h1 style="margin-bottom: 50px;">Maxi Dresses</h1>
+            </div>
+
+        
+        </div>
+
+        <div class="pattern">
+            <div class="listNav">
+                <h2>GRID</h2>
+                <a onclick="three()"><img src="https://www.linkpicture.com/q/grid_1.png" type="image" /></a>
+                <a onclick=" changeGrid()"><img src="https://www.linkpicture.com/q/grid3.png" type="image" /></a>
+            </div>
+
+            <div class="sort">
+                <h2>SORT BY</h2>
+
+                <select onchange="selectOpt()" id="opt">
+                    <option value="relevance">Relevance</option>
+                    <option value="prce-asc">Price (lowest first)</option>
+                    <option value="prce-desc">Price (highest first)</option>
+                    <option value="discount-desc">Discount</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="list"></div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="index.js"></script>
+<script src="products.js"></script>

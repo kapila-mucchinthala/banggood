@@ -1,0 +1,23 @@
+.sign_in {
+  width: 100%;
+  height: 640px;
+  background-color: rgb(238, 232, 232);
+}
+.sign_in_box {
+  width: 30%;
+  height: 450px;
+  background-color: white;
+  margin: auto;
+}
+.sign_in_image {
+  margin-left: 40px;
+}
+.sign_in_input {
+  width: 300px;
+  height: 25px;
+  margin: 15px;
+  margin-left: 56px;
+}
+.sign_in_image2 {
+  margin-left: 22px;
+}
